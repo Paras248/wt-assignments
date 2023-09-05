@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+}
+.nav {
+	display: flex;
+	background: #f5aa33;
+	padding: 15px;
+}
+
+.brand-logo {
+	flex: 1;
+}
+
+.header-links ul{
+	display: flex;
+}
+
+.header-links ul li {
+	margin-left: 30px;
+	list-style: none;
+	font-weight: bold;
+}
+
+.header-links ul li a {
+	color: black;
+	text-decoration: none;
+	transition: 0.2s linear;
+}
+
+.header-links ul li a:hover {
+	color: white;
+}
+
+.signup-form {
+	display: flex;
+	flex-direction: column;
+	margin-left: 35%;
+	margin-right: 35%;
+	padding: 20px;
+	margin-top: 15%;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.signup-form input {
+	margin-bottom: 20px;
+	height: 30px;
+	padding: 0 10px;
+	border-style: none;
+	border-bottom: 1px solid black;
+}
+
+
+.signup-form input:focus {
+	border-bottom: 1px solid blue;
+
+}
+
+
+.signup-form button {
+	background: black;
+	color: white;
+	height: 40px;
+
+	border-style: none;
+	border-radius: 5px;
+}
+
+

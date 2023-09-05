@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+}
+.nav {
+	display: flex;
+	background: #f5aa33;
+	padding: 15px;
+}
+
+.brand-logo {
+	flex: 1;
+}
+
+.header-links ul{
+	display: flex;
+}
+
+.header-links ul li {
+	margin-left: 30px;
+	list-style: none;
+	font-weight: bold;
+}
+
+.header-links ul li a {
+	color: black;
+	text-decoration: none;
+	transition: 0.2s linear;
+}
+
+.header-links ul li a:hover {
+	color: white;
+}
+
+h1 {
+	margin-top: 30px;
+	text-align: center;
+}
