@@ -18,8 +18,7 @@
 }
 
 .header-links ul li {
-
-	font-size: 20px;
+    font-size: 20px;
 	margin-left: 30px;
 	list-style: none;
 	font-weight: bold;
@@ -31,11 +30,11 @@
 	transition: 0.2s linear;
 }
 
-.header-links ul li a.active{
+.header-links ul li a:hover {
 	color: white;
 }
 
-.header-links ul li a:hover {
+.header-links ul li a.active{
 	color: white;
 }
 
@@ -81,8 +80,7 @@
 }
 
 
-
-.signup-title{
+.signin-title{
     margin-top: 10%;
     margin-bottom: 20px;
     text-align: center;

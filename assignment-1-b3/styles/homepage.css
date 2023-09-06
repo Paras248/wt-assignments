@@ -4,7 +4,7 @@
 .nav {
 	display: flex;
 	background: #f5aa33;
-	padding: 15px;
+	padding: 20px;
 }
 
 .brand-logo {
@@ -16,6 +16,7 @@
 }
 
 .header-links ul li {
+	font-size: 20px;
 	margin-left: 30px;
 	list-style: none;
 	font-weight: bold;
