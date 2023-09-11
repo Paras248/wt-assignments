@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+.nav {
+    display: flex;
+    background: #f5aa33;
+    padding: 20px;
+}
+
+.brand-logo {
+    flex: 1;
+}
+
+.header-links ul {
+    display: flex;
+}
+
+.header-links ul li {
+    font-size: 97%;
+    margin-left: 30px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.header-links ul li a {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+
+.header-links ul li a:hover {
+    color: white;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.content {
+    height: 89vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+    line-height: 40px;
+}
+
+#card div:first-child {
+    color: #f5aa33;
+}
+
+#cardContent {
+    margin-left: 30px;
+}

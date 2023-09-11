@@ -1,87 +1,89 @@
 * {
-	margin: 0;
+    margin: 0;
 }
 
-
 .nav {
-	display: flex;
-	background: #f5aa33;
-	padding: 20px;
+    display: flex;
+    background: #f5aa33;
+    padding: 20px;
 }
 
 .brand-logo {
-	flex: 1;
+    flex: 1;
 }
 
-.header-links ul{
-	display: flex;
+.header-links ul {
+    display: flex;
 }
 
 .header-links ul li {
-    font-size: 20px;
-	margin-left: 30px;
-	list-style: none;
-	font-weight: bold;
+    font-size: 97%;
+    margin-left: 30px;
+    list-style: none;
+    font-weight: bold;
 }
 
 .header-links ul li a {
-	color: black;
-	text-decoration: none;
-	transition: 0.2s linear;
+    color: black;
+    text-decoration: none;
+    transition: 0.2s linear;
 }
 
 .header-links ul li a:hover {
-	color: white;
+    color: white;
 }
 
-.header-links ul li a.active{
-	color: white;
+.header-links ul li a.active {
+    color: white;
 }
 
-.signup-form {
-	display: flex;
-	flex-direction: column;
-	margin-left: 35%;
-	margin-right: 35%;
-	padding: 20px;
-	border-radius: 5px;
-	background-color: white;
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-
-.signup-form input {
-	margin-bottom: 20px;
-	height: 30px;
-	padding: 0 10px;
-	border-style: none;
-	border-bottom: 1px solid black;
-	outline: none;
+.signin-form input {
+    margin-bottom: 20px;
+    height: 30px;
+    padding: 0 10px;
+    border-style: none;
+    border-bottom: 1px solid black;
+    outline: none;
 }
 
-
-.signup-form input:focus {
-	border-bottom: 2px solid rgb(3, 63, 175);
-	background-color: rgb(195, 210, 255);
+.signin-form input:focus {
+    border-bottom: 2px solid rgb(3, 63, 175);
+    background-color: rgb(195, 210, 255);
 }
 
-
-.signup-form button {
-	background-color: rgb(3, 63, 175);
-	color: white;
-	height: 40px;
-	border-style: none;
-	border-radius: 5px;
-	transition: 0.2s linear;
+.signin-form button {
+    background-color: rgb(3, 63, 175);
+    color: white;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    transition: 0.2s linear;
 }
 
-.signup-form button:hover{
-	background-color: black;
+.signin-form button:hover {
+    background-color: black;
 }
 
-
-.signin-title{
-    margin-top: 10%;
+.signin-title {
+    font-size: 140%;
     margin-bottom: 20px;
     text-align: center;
+}
+
+.content {
+    min-height: 89vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
