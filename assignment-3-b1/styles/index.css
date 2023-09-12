@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+.navbar {
+    background-color: rgb(100, 138, 243);
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-content label {
+}
