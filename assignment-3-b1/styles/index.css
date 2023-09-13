@@ -1,16 +1,107 @@
 * {
     margin: 0;
 }
+body {
+    border: 2px solid rgb(12, 133, 231);
+}
 .navbar {
-    background-color: rgb(100, 138, 243);
+    background-color: rgb(12, 133, 231);
     padding: 10px;
 }
 
 .container {
     display: flex;
     justify-content: center;
+    background-color: rgb(247, 247, 247);
+    height: 93.7vh;
     align-items: center;
 }
 
-.line-content label {
+.text-area {
+    resize: none;
+    overflow-y: scroll;
+    height: 50px;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.content-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-contact input {
+    width: 285%;
+}
+
+.content:first-child {
+    margin-top: 20px;
+}
+
+.content:nth-child(1) label {
+    margin-right: 30px;
+}
+
+.content:nth-child(2) label {
+    margin-left: 65px;
+}
+
+.content:nth-child(3) label {
+    margin-left: 59px;
+}
+
+.content:nth-child(4) label {
+    margin-left: 50px;
+}
+
+.content:nth-child(5) label {
+    margin-left: 47px;
+}
+
+.content:nth-child(6) label {
+    margin-left: -15px;
+}
+
+.content:nth-child(7) label {
+    margin-left: -25px;
+}
+
+.content:nth-child(8) label {
+    margin-left: 80px;
+}
+
+.content:nth-child(9) label {
+    margin-left: 28px;
+}
+
+.content label,
+.content div label {
+    margin-right: 30px;
+}
+
+.content input {
+    background-color: white;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 5px 15px;
+}
+
+.content select {
+    padding: 5px 15px;
+    background-color: white;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+#submit {
+    background-color: rgb(12, 133, 231);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#cancel {
+    background-color: rgb(238, 58, 58);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
